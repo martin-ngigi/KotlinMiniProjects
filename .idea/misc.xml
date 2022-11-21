@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/drawable/ic_android_svg.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/drawable/splash_image.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.18" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/activity_floating_menu.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/activity_notificatons.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/activity_view_binding.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/fragment_second.xml" value="0.1328125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/fragment_test_binding.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/layout/fragment_third.xml" value="0.1328125" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/KotlinMiniProjects/app/src/main/res/menu/floating_context_menu.xml" value="0.1" />

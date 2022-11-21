@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.kotlinminiprojects.bottomnav.BottomNavigationActivity
 import com.example.kotlinminiprojects.floatingmenu.FloatingMenuActivity
 import com.example.kotlinminiprojects.notifications.activities.NotificationsActivity
+import com.example.kotlinminiprojects.viewbinding.ViewBindingActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +24,16 @@ class MainActivity : AppCompatActivity() {
 
         btn_floating_menu.setOnClickListener{
             goToFloatingMenu()
+        }
+
+        btn_activity_binding.setOnClickListener {
+            goToViewBinding()
+        }
+    }
+
+    private fun goToViewBinding() {
+        Intent(this, ViewBindingActivity::class.java).also {
+            startActivity(it)
         }
     }
 
