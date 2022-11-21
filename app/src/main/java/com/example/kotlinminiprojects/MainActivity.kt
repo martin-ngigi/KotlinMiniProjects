@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlinminiprojects.bottomnav.BottomNavigationActivity
+import com.example.kotlinminiprojects.floatingmenu.FloatingMenuActivity
 import com.example.kotlinminiprojects.notifications.activities.NotificationsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -18,6 +19,16 @@ class MainActivity : AppCompatActivity() {
 
         btn_bottom_navigation.setOnClickListener{
             goToBottomNav()
+        }
+
+        btn_floating_menu.setOnClickListener{
+            goToFloatingMenu()
+        }
+    }
+
+    private fun goToFloatingMenu() {
+        Intent(this, FloatingMenuActivity::class.java).also {
+            startActivity(it)
         }
     }
 

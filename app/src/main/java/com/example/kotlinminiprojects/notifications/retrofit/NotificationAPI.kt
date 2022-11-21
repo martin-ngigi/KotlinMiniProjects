@@ -1,7 +1,7 @@
 package com.example.kotlinminiprojects.notifications.retrofit
 
-import com.example.kotlinminiprojects.Constants.Companion.CONTENT_TYPE
-import com.example.kotlinminiprojects.Constants.Companion.SERVER_KEY
+import com.example.kotlinminiprojects.bottomnav.Constants.Companion.CONTENT_TYPE
+import com.example.kotlinminiprojects.bottomnav.Constants.Companion.SERVER_KEY
 import com.example.kotlinminiprojects.notifications.data.PushNotification
 import okhttp3.ResponseBody
 import retrofit2.Response

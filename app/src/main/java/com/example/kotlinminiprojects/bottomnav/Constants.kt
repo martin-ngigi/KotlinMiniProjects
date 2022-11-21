@@ -1,4 +1,4 @@
-package com.example.kotlinminiprojects
+package com.example.kotlinminiprojects.bottomnav
 
 class Constants {
 
