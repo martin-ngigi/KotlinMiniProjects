@@ -17,6 +17,9 @@
         android:theme="@style/Theme.KotlinMiniProjects"
         tools:targetApi="31">
         <activity
+            android:name=".bottomnav.BottomNavigationActivity"
+            android:exported="false" />
+        <activity
             android:name=".notifications.activities.NotificationsActivity"
             android:exported="false" />
         <activity
@@ -29,15 +32,14 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".notifications.services.FirebaseService"
-            android:permission="com.google.android.c2dm.permission.SEND"
+        <service
+            android:name=".notifications.services.FirebaseService"
             android:exported="true"
-            >
+            android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
-
         </service>
     </application>
 
