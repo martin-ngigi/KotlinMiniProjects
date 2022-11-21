@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlinminiprojects.bottomnav.BottomNavigationActivity
+import com.example.kotlinminiprojects.cropimage.CropMyImageActivity
 import com.example.kotlinminiprojects.floatingmenu.FloatingMenuActivity
 import com.example.kotlinminiprojects.notifications.activities.NotificationsActivity
 import com.example.kotlinminiprojects.viewbinding.ViewBindingActivity
@@ -28,6 +29,16 @@ class MainActivity : AppCompatActivity() {
 
         btn_activity_binding.setOnClickListener {
             goToViewBinding()
+        }
+
+        btn_image_crop.setOnClickListener {
+            goToImageCropping()
+        }
+    }
+
+    private fun goToImageCropping() {
+        Intent(this, CropMyImageActivity::class.java).also {
+            startActivity(it)
         }
     }
 
